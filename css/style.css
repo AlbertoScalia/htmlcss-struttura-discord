@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #add8e6;
+}
+
+.boxed {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 1em 0;
+}
+
+.flexcontainer,
+.flexcontainer2,
+.flexcontainer3,
+.flexcontainer4 {
+    display: flex;
+    flex-direction: row;
+}
+
+.flexcontainer {
+    justify-content: center;
+}
+
+.flexcontainer2 {
+    padding: 40px 0;
+}
+
+.flexcontainer3 {
+    width: 700px;
+    min-height: 480px;
+}
+
+.flexcontainer4 {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.justifycontent-spacebetween {
+    justify-content: space-between;
+}
+
+.justifycontent-center {
+    justify-content: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav,
+#logo,
+#login {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+nav {
+    min-height: 25px;
+    justify-content: center;
+    width: 720px;
+}
+
+.testo:first-child {
+    text-align: left
+}
+
+.testo:last-child {
+    text-align: right
+}
+
+#logo,
+#login {
+    width: 140px;
+}
+
+#logo {
+    justify-content: flex-start;
+}
+
+#login {
+    justify-content: flex-end;
+}
+
+#yellow {
+    background-color: #daa520;
+}
+
+#blue {
+    background-color: #00008b;
+}
+
+#fucsia {
+    background-color: #ee82ee;
+    min-height: 300px;
+    width: 800px;
+}
+
+#green {
+    background-color: #228b22;
+    min-height: 800px;
+    width: 1000px;
+}
+
+#salmone {
+    background-color: #f08080;
+    min-width: 300px;
+}
+
+#v_acqua {
+    background-color: #7fffd4;
+    min-width: 1000px;
+    min-height: 70px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.grigio {
+    background-color: #d3d3d3;
+}
+
+.rosa {
+    background-color: #ffc0cb;
+    min-width: 400px;
+    min-height: 400px;
+}
+
+.azzurro {
+    background-color: #1e90ff;
+    width: 600px;
+}
+
+.border {
+    border: 2px dashed black;
+}
+
+.b_white {
+    border: 2px dashed white;
+    background-color: #20b2aa;
+    width: calc(100% /4);
+}
+
+.nero {
+    background-color: #23272a;
+    padding: 0.625em 0 2em;
+    border-bottom: 2px solid white;
+}
+
+.rosa2 {
+    background-color: #ffb6c1;
+    padding: 5px;
+}
+
+footer .flexcontainer2:last-child {
+    padding: 1.5em 0 0;
+}
